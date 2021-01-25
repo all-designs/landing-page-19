@@ -1,0 +1,603 @@
+    /*
+    Template Name    : Probox
+	Description		 : Responsive HTML Multipurpose Template
+    Version          : 1.0
+/*
+
+================================================
+/* Table of Content
+==================================================
+      
+1. Common Styles
+2. Naviation
+3. Slider
+4. Features
+5. Services
+6. CTA Wrapper
+7. Portfolio
+8. Our Team
+9. About US
+10. Some Facts
+11. Price Table
+12. Why Us
+13. Testimonials
+14. Blog
+15. Contact us
+16. Footer
+17. Page Loading
+18. Responsive
+
+*/
+    /*--------------------------------------------------
+1. Common Styles
+--------------------------------------------------*/
+    
+    body {
+        font-family: 'Rubik', sans-serif;
+        color: #666666;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    p {
+        color: #666666;
+    }
+    
+    .bg_cover {
+        background-position: center center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        width: 100%;
+        height: 100%;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    .mb-40 {
+        margin-bottom: 40px;
+    }
+    
+    .btn-color {
+        box-shadow: 3px 3px 51px 0 rgba(0, 0, 0, 0.2);
+        color: #ffffff;
+        background: #0F70B7;
+        padding: 15px 50px;
+        border-radius: 50px;
+        display: inline-block;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .section_title {}
+    
+    .section_title h2 {
+        text-transform: uppercase;
+        color: #665e77;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    
+    .section_title h4 {
+        color: #000;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+    /*--------------------------------------------------
+2. Naviation
+--------------------------------------------------*/
+    
+    .navbar {
+        padding: 25px 0;
+        background: transparent;
+    }
+    
+    .navbar .navbar-Description {}
+    
+    .navbar .navbar-Description img {
+        height: 46px;
+    }
+    
+    .navbar .nav-item {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar .nav-item .nav-link {
+        font-size: 14px;
+        font-weight: 400;
+        color: #000;
+        padding: 0;
+        margin-left: 23px;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: #1473B8;
+    }
+    /*--------------------------------------------------
+3. Slider
+--------------------------------------------------*/
+    
+    .slider {
+        height: 100vh;
+        position: relative;
+    }
+    
+    .slider .banner_text {
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        -webkit-transform: translate(-50%, -40%);
+        -moz-transform: translate(-50%, -40%);
+        -ms-transform: translate(-50%, -40%);
+        -o-transform: translate(-50%, -40%);
+    }
+    
+    .slider .banner_text span {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    
+    .slider .banner_text h1 {
+        font-size: 65px;
+        font-weight: 700;
+        text-transform: unset;
+        margin: 0 0 10px;
+        color: #000;
+    }
+    
+    .slider .banner_text p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        margin: 0 0 30px;
+    }
+    
+    .slider .banner_text .btn-color {
+        box-shadow: 3px 3px 51px 0 rgba(0, 0, 0, 0.2);
+        color: #ffffff;
+        background: #0F70B7;
+        padding: 15px 50px;
+        border-radius: 50px;
+        display: inline-block;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .slider .banner_text .btn-color:hover {
+        transform: translateY(-7px);
+    }
+    
+    #particles-js {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+    }
+    /*--------------------------------------------------
+4. Telecom
+--------------------------------------------------*/
+    
+    .telecom {}
+    
+    .telecom .telecom_text {}
+    
+    .telecom .telecom_text .text1 {}
+    
+    .telecom .telecom_text .text2 {}
+    
+    .telecom .telecom_text a {
+        margin-top: 15px;
+    }
+    
+    .telecom .telecom_image {}
+    
+    .telecom .telecom_image img {
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    /*--------------------------------------------------
+5. Services
+--------------------------------------------------*/
+    
+    .services {}
+    
+    .services .service_text {}
+    
+    .services .service_items {}
+    
+    .services .service_items .item_lists {
+        margin-top: 130px;
+    }
+    
+    .services .service_items .item_lists li {
+        margin-bottom: 10px;
+    }
+    
+    .services .service_items .item_lists li i {
+        color: #000000;
+    }
+    
+    .services .service_items .item_lists li a {
+        font-size: 18px;
+        color: #0F70B7;
+        font-weight: 500;
+        margin-left: 7px;
+    }
+    /*--------------------------------------------------
+6. CTA Wrapper
+--------------------------------------------------*/
+    /*--------------------------------------------------
+7. Portfolio
+--------------------------------------------------*/
+    /*--------------------------------------------------
+8. Our Team
+--------------------------------------------------*/
+    /*--------------------------------------------------
+9. About US
+--------------------------------------------------*/
+    /*--------------------------------------------------
+10. Some Facts
+--------------------------------------------------*/
+    /*--------------------------------------------------
+11. Price Table
+--------------------------------------------------*/
+    /*--------------------------------------------------
+12. Why Us
+--------------------------------------------------*/
+    /*--------------------------------------------------
+13. Testimonials
+--------------------------------------------------*/
+    /*--------------------------------------------------
+14. Blog
+--------------------------------------------------*/
+    /*--------------------------------------------------
+15. Contact us
+--------------------------------------------------*/
+    
+    .contact:before {
+        background: #f7f4ff;
+        bottom: 0;
+        content: "";
+        left: 0;
+        opacity: 0.93;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+    
+    .contact {
+        background-size: cover;
+        z-index: 9;
+        position: relative;
+    }
+    
+    .contact .contuct_form {}
+    
+    .contact .contuct_form h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+        color: #000;
+    }
+    
+    .contact .contuct_form p {
+        margin-bottom: 35px;
+    }
+    
+    .contact .contuct_form p span {
+        margin-left: 1px;
+        color: red;
+    }
+    
+    .contact .contuct_form label {
+        margin-top: 10px;
+        color: #000000;
+    }
+    
+    .contact .contuct_form label span {
+        margin-left: 1px;
+        color: red;
+    }
+    
+    .contact .line {
+        background: #fff;
+    }
+    
+    .contact .form-control {
+        padding: 22px;
+        font-size: 13px;
+        margin-bottom: 10px;
+        background: #ffffff;
+        border: 0;
+        border-radius: 0px;
+    }
+    
+    .contact .contuct_form .robot {}
+    
+    .contact .contuct_form .robot h6 {
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+    
+    .contact .contuct_form .robot .robot_box {
+        border: 1px solid #D3D3D3;
+        background: #F9F9F9;
+        display: flex;
+        width: 50%;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        padding: 10px 10px;
+    }
+    
+    .contact .contuct_form .robot .robot_box .chack_box {
+        width: 70%;
+        text-align: left;
+        display: flex;
+    }
+    
+    .contact .contuct_form .robot .robot_box .chack_box .chack {
+        width: 25px;
+        height: 25px;
+        margin-top: 17px;
+        margin-right: 12px;
+    }
+    
+    .contact .contuct_form .robot .robot_box .chack_box label {
+        margin-top: 17px;
+    }
+    
+    .contact .contuct_form .robot .robot_box .robot_logo {
+        width: 30%;
+        text-align: center;
+    }
+    
+    .contact .contuct_form .robot .robot_box .robot_logo img {
+        height: 40px;
+    }
+    
+    .contact .contuct_form .robot .robot_box .robot_logo span {}
+    
+    .contact button.btn {
+        margin-top: 30px;
+    }
+    
+    .contact .contuct_info {
+        margin-left: 70px;
+    }
+    
+    .contact .contuct_info h3 {
+        margin-bottom: 35px;
+        font-size: 22px;
+        color: #000;
+    }
+    
+    .contact .contuct_info .contact_info_box {
+        margin-top: 109px;
+        background: #fff;
+        padding: 50px 20px;
+        border-radius: 3px;
+    }
+    
+    .contact .contuct_info .contact_info_box .lucation {
+        margin-bottom: 25px;
+    }
+    
+    .contact .contuct_info .contact_info_box .lucation h4 {}
+    
+    .contact .contuct_info .contact_info_box .lucation span {
+        display: block;
+    }
+    
+    .contact .contuct_info .contact_info_box .number {
+        margin-bottom: 25px;
+    }
+    
+    .contact .contuct_info .contact_info_box .number h5 {}
+    
+    .contact .contuct_info .contact_info_box .number h5 span {
+        color: #b5b5b5;
+        margin-left: 6px;
+    }
+    
+    .contact .contuct_info .contact_info_box .email {}
+    
+    .contact .contuct_info .contact_info_box .email a {
+        display: block;
+        margin-bottom: 5px;
+        color: #0F70B7;
+    }
+    /*--------------------------------------------------
+16. Footer
+--------------------------------------------------*/
+    
+    .footer {
+        background: #fff;
+        position: relative;
+    }
+    
+    .footer .footer_bg {
+        position: static;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+    
+    .footer .footer_content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .footer .footer_logo {
+        margin-top: 50px;
+    }
+    
+    .footer .footer_logo img {
+        height: 60px;
+    }
+    
+    .footer .copyright_text {
+        background: #0372BA;
+    }
+    
+    .footer .quick_links {
+        margin-top: 100px;
+    }
+    
+    .footer .address h4,
+    .footer .quick_links h4 {
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    
+    .footer .quick_links .links {
+        padding: 0;
+    }
+    
+    .footer .quick_links .links li a {
+        color: #ddd;
+        padding-right: 10px;
+        font-weight: 400;
+    }
+    
+    .footer .address {
+        margin-top: 100px;
+    }
+    
+    .footer .address .address_items {
+        padding: 0;
+    }
+    
+    .footer .quick_links .links li,
+    .footer .address .address_items li {
+        color: #ddd;
+        font-size: 14px;
+        display: flex;
+        margin-bottom: 12px;
+    }
+    
+    .footer .address .address_items li .icon {
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        color: #fff;
+        background: #000000;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    
+    .footer .quick_links .links li {
+        display: inline-block;
+    }
+    
+    .footer .address .address_items li span {}
+    /*--------------------------------------------------
+17. Page Loading
+--------------------------------------------------*/
+    
+    .dvLoading {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url("../images/loader.gif") center no-repeat #fff;
+    }
+    /*--------------------------------------------------
+18. Responsive
+--------------------------------------------------*/
+    /* Extra small devices (portrait phones, less than 576px) */
+    
+    @media (max-width: 575.98px) {
+        .navbar {
+            background: #353c4d !important;
+            padding: 30px;
+        }
+        .navbar .nav-item {
+            margin: 0;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .navbar .nav-item .nav-link {
+            margin: 0;
+        }
+        .slider {
+            height: 800px;
+            text-align: center;
+        }
+    }
+    /* Small devices (landscape phones, less than 768px) */
+    
+    @media (max-width: 767px) {
+        br {
+            display: none;
+        }
+        .navbar {
+            background: #353c4d !important;
+            padding: 30px;
+        }
+        .navbar .nav-item {
+            margin: 0;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .navbar .nav-item .nav-link {
+            margin: 0;
+        }
+        .slider {
+            height: 900px;
+            text-align: center;
+        }
+        .slider .content h1 {
+            font-size: 45px;
+        }
+    }
+    /* Medium devices (tablets, less than 992px) */
+    
+    @media (max-width: 991px) {
+        br {
+            display: none;
+        }
+        .navbar {
+            background: #353c4d !important;
+            padding: 30px;
+        }
+        .navbar .nav-item {
+            margin: 0;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .navbar .nav-item .nav-link {
+            margin: 0;
+        }
+        .slider {
+            height: 900px;
+            text-align: center;
+        }
+    }
